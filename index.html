@@ -24,43 +24,51 @@ Select ONE Additional
     <button id="mem1-button">Memory #1</button>
     <button id="mem2-button">Memory #2</button>
     <button id="mem3-button">Memory #3</button>
-    <h1>My Top 3 Memories of <span>This Year</span></h1>
+    <h1>My top 3 foods <span>right now</span></h1>
+    
     <ol>
       <li>
-        <h3 id="mem1">Memory #1</h3>
-        <p>More about this memory.</p>
+        <h3 id="mem1">Food 1</h3>
+        <p id="potato">More about this food</p>
+<img src="https://hips.hearstapps.com/hmg-prod/images/purple-sweet-potatoes-royalty-free-image-1693404968.jpg" width="300">
+      <li>
+        <h3 id="mem2">brussel sprouts</h3>
+        <p id="brussel">More about this memory.</p>
+        <img src="https://www.sweetashoney.co/wp-content/uploads/Asian-Brussel-Sprouts-7-scaled.jpg" width="300">
       </li>
 
       <li>
-        <h3 id="mem2">Memory #2</h3>
-        <p>More about this memory.</p>
-      </li>
-
-      <li>
-        <h3 id="mem3">Memory #3</h3>
-        <p>More about this memory</p>
+        <h3 id="mem3"></h3>
+        <p id="egg">More about this memory</p>
       </li>
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-
+//img 1
+$("img").hide();
       // ======================== Button #1
       $("#mem1-button").click(function () {
         $("#mem1").css("color", "purple");
+      $("#mem1").text("Purple Sweet Potatoes");
+$("img").show(300);
       });
 
       // ======================== Button #2
+      $("img").hide();
       $("#mem2-button").click(function () {
-        $("#mem2").css("color", "blue");
+        $("#mem2").css("color", "green");
+        $("#mem2").text("Roasted Brussel Sprouts")
+        $("img").show(300);
       });
 
       // ======================== Button #3
       $("#mem3-button").click(function () {
-        $("#mem3").css("color", "green");
+        $("#mem3").css("color", "yellow");
         $("#mem3").text("Coding Parties! 🎉");
       });
 
+$("img").attr("src", )
 
     </script>
   </body>

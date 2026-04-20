@@ -2,11 +2,13 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: white;
+  background-color: rgb(235, 170, 255);
   padding-left: 20px;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family: "Poetsen One", sans-serif;
-}
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: aliceblue;}
+
+  
