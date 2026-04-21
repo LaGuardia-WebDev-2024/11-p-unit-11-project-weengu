@@ -2,13 +2,25 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: rgb(235, 170, 255);
+  background-color: rgb(255, 255, 255);
   padding-left: 20px;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: aliceblue;}
+  font-family:monospace;
+  color: rgb(255, 154, 248);
+background-color: rgb(127, 242, 225);
+}
 
-  
+  h3 {
+    font-family:monospace;
+    color:rgb(255, 154, 248);
+   
+  }
+  li {
+    color: rgb(255, 154, 248);
+  }
+  .spark {
+    background-color: rgb(213, 211, 211);
+  }
