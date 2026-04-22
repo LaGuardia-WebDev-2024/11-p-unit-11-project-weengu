@@ -41,7 +41,7 @@ Select ONE Additional
       <li>
         <h3 id="mem3">Food 3</h3>
         <p id="egg">More about this food</p>
-        <img id="carrot" src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/carrots.jpg.webp?h=c8b8df1c&itok=VpfFJ0ec" width="300">
+        <img class="carrot" src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/carrots.jpg.webp?h=c8b8df1c&itok=VpfFJ0ec" width="300">
       </li>
     </ol>
 <img id="ok" src="https://thumbs.dreamstime.com/b/adorable-puppy-meditating-lotus-position-purple-mat-perfect-pet-wellness-projects-cute-dog-doing-yoga-meditation-377166300.jpg" width="300">
@@ -67,14 +67,15 @@ $("#potato").text("my favorite kind of sweet potatoes. They're so good for you a
       });
 
       // ======================== Button #3
-        $("#carrot").hide();
+        $(".carrot").hide();
       $("#mem3-button").click(function () {
         $("#mem3").css("color","rgb(255, 165, 0)");
         $("#mem3").text("Carrots");
-        $("#carrot").show(300);
+        $(".carrot").show(300);
         $("#egg").text("i lve carrots so much i eat so many every day that my skin has turned yellow not even joking but i just cant not. Especially farmers market carrots.....yummmmm 🐇")
       });
     
+$("p").html("more about <strong> this </strong> food!");
 
 //button special
 
